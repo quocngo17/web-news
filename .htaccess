@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteRule "index.html" "index.php"
+RewriteRule "dang-nhap.html" "login.php"
+RewriteRule "dang-ky.html" "register.php"
+RewriteRule "dang-bai-thanh-vien.html" "dangbai_thanhvien.php"
+RewriteRule "^baiviet/(.*)-([0-9]*).html" "details.php?id=$2"
+RewriteRule "^chuyenmuc/(.*)-([0-9]*).html" "chuyenmuc.php?id=$2"
+
+
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #222d32
+	
+}
+.header{
+	background: #3488BC;
+	height: 70px;
+	width: 100%;
+}
+.logo h3{
+	padding: 0;
+	margin: 0;
+	line-height: 70px;
+	text-align: center
+}
+.logo h3 a{
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+	height: 70px;
+
+}
+.acount{
+	background: #3488BC;
+}
+.dropdown-toggle{
+	border: none;
+	height: 100%;
+	background: #3488BC;
+	color: #FFF
+}
+.dropdown-menu{
+	left: -30px
+}
+.right-acount{
+	float: right;
+	padding-right: 5em;
+	line-height: 70px
+}
+.right-acount img{
+	border-radius: 50%;
+	margin-right: 15px;
+	border: 1px solid #FFF;
+
+}
+/* header */
+
+.block-sidebar{
+	padding: 0;
+	/* height: 541px; */
+	background: #222d32
+}
+.sidebar-menu li.sidebar-header {
+    padding: 15px 25px;
+    font-size: 22px;
+    color: #ffffff;
+    background: #1a2226;
+}
+.add, .delete{
+	color: #FFF;
+	text-decoration: none;
+	float: left;
+	padding: 15px 25px;
+	margin-left: 2px;
+	margin-top: 5px;
+}
+.add {
+	background: #1C8DEB;
+	text-decoration: none
+}
+.delete{
+	background: #F62E20
+}
+.add-delete{
+	float: right
+}
+.add:hover, .delete:hover{
+	text-decoration: none;
+	color: #FFF
+}
+.manager{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+.form-control{
+	border-radius: 0px;
+	margin-bottom: 15px;
+}
+.submit{
+	margin-bottom: 15px;
+	border-radius: 0px;
+	margin-top: 15px
+}
+
+.search-product input{
+	height: 30px;
+	/* padding-left: 10px; */
+	margin-bottom: 15px;
+	outline: none;
+	border: none
+}
+.search-product button{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	border: none;
+	background: none
+}

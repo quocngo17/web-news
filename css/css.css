@@ -1,0 +1,195 @@
+/* CSS Document */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	
+}
+
+.search-box {  
+display: inline-block;  
+width: 100%;  
+border-radius: 3px;    
+position: relative;  
+background: #fff;  
+padding-right: 15px !important; 
+padding-left: 15px !important;  
+}
+.form-control{
+	outline: hidden !important;
+}
+
+
+ 
+.search-box .search-btn {  
+position: absolute;  
+right: 15px;  
+top: 0;  
+color: #aaa;  
+border-radius: 3px;  
+font-size: 21px;  
+padding: 5px 10px 1px;  
+}
+p{
+	padding: 0px !important;
+}
+.log ul li a:hover{
+	color: #666;
+}
+
+.sbar ul{
+	list-style: square;
+	margin-left: 15px;
+}
+.menu-home{
+	height: 40px;
+}
+.menu-home ul{
+	list-style: none;
+}
+.menu-home li{
+	float: left;
+	line-height: 30px;
+}
+.menu-home li a{
+	color: #FFF; padding: 0px 15px;
+	border-right: 1px solid #FFF;
+	text-decoration: none;
+}
+.menu-home li a:hover{
+	text-decoration: none
+}
+/* .menu-home li a:first-child{
+	padding: 0px 15px 0px 0px;
+} */
+.bl-menu{
+	background: #337ab7
+}
+footer{
+	border-top: 1px solid #999;
+	padding-top: 25px;
+}
+footer p{
+	margin-bottom: 15px
+}
+.list-footer{
+	list-style: none;
+
+}
+.list-footer li a{
+	color: #FFF;
+}
+.list-footer li{
+	float: left;
+	padding-right: 25px;
+	line-height: 40px
+}
+.top{
+	height: 30px;
+	background: #CCC;
+	padding: 0;
+}
+.top div span{
+	line-height: 30px
+}
+.rg-lg ul{
+	list-style: none;
+	float: right
+}
+.rg-lg ul li{
+	float: left;
+	/* line-height: 30px; */
+	padding-right: 15px;
+	line-height: 30px
+}
+.rg-lg ul li a{
+	color: #333
+}
+.rg-lg ul li a:hover{
+	color: #337ab7
+}
+.login{
+	border: 1px solid #CCC;
+	margin-top: 10%
+}
+.login form input{
+	width: 100%;
+	padding: 7px 0px;
+	margin-bottom: 15px;
+	border: none;
+	border-bottom: 2px solid #337ab7;
+	outline: none
+}
+.login form input[type=text]{
+	margin-top: 15px
+}
+.login form input[type=submit]{
+	background: #337ab7;
+	border-bottom: 0;
+	color: #FFF;
+	border: 2px solid #337ab7;
+	font-weight: bold
+}
+.login form input[type=submit]:hover{
+	background: #ffffff;
+	color: #337ab7
+}
+.logo-icon{
+	width: 100px;
+	margin: 15px auto;
+
+}
+select{
+	padding: 5px 15px;
+}
+.login form input[type=radio]{
+    width: 30%;
+    /* padding: 0; */
+    margin: 15px;
+}
+.banner-ads-left {
+    width: 100px;
+    position: fixed;
+    left: 0;
+    bottom: 30%;
+    /* height: 306px; */
+    background-position: -17px -47px;
+    cursor: pointer;
+}
+.banner-ads-right {
+    width: 100px;
+    position: fixed;
+    right: 0;
+    bottom: 30%;
+    /* height: 306px; */
+    background-position: -17px -47px;
+    cursor: pointer;
+}
+.cm-detail{
+	border-left: 2px solid #2e6da4;
+}
+.cm-detail div.col-md-12{
+	border-bottom: 1px dotted gray
+
+}
+.cm-detail .col-md-12:last-child{
+	/* border: 0; */
+}
+.cm-detail:before{
+	content: '';
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: -8.2px;
+	top: 40%;
+	background: #FFF;
+	border-radius: 50%;
+	border: 5px solid #2e6da4;
+}
+@media(max-width:980px) {
+	.banner-ads-left, .banner-ads-right{
+		display: none;
+	}
+}
